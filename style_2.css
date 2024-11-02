@@ -1,0 +1,81 @@
+body {
+    background-color: #D4C9B4;
+    color:#2f210d;
+    font-family: 'Comic Sans MS', serif;
+    margin: 40px 80px 40px 80px;
+
+}
+
+.picture_left {
+    float:left;
+    margin-right: 20px;
+}
+
+.picture_right {
+    float:right;
+    margin-left: 20px;
+}
+
+a {
+    color: #b5490a;
+    text-decoration: none
+}
+
+a:hover {
+    color:#d6883a;
+    text-decoration: underline
+}
+h2 {
+    font-size: 30px;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(211, 191, 147, 0.1),
+    3px 4px 4px rgba(211, 184, 147, 0.15),
+    4px 6px 4px rgba(211, 186, 147, 0.2),
+    5px 8px 4px rgba(211, 181, 147, 0.219);
+}
+h1 {
+    font-size: 50px;
+    font-weight: 600;
+    background-image: linear-gradient(45deg, #3E0C15, #da6511);
+    color: transparent;
+    background-clip: text;
+   -webkit-background-clip: text;
+}
+
+table {
+    background-image: url(https://klike.net/uploads/posts/2022-09/1663309352_g-73.jpg);
+	width: 100%;
+	margin-bottom: 20px;
+	border-collapse: collapse; 
+}
+table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #905c3e;
+	border: 1px solid #663a00;
+}
+table td {
+	border: 1px solid #663500;
+	padding: 5px;
+}
+table tr td:first-child, .table tr th:first-child {
+	border-left: none;
+}
+table tr td:last-child, .table tr th:last-child {
+	border-right: none;
+}
+nav {
+    font-size: 20px;
+}
+a.active {
+    font-weight: bold;
+}
+
+a.active {
+    font-weight: bold;
+    color:#C8733A;
+}
+
+.sod {
+    font-size: larger;
+}

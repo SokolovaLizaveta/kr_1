@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Лизавета Соколова">
+    <meta name="description" content="Главная страница книжного клуба">
+    <link rel="stylesheet" href="style_osn.css">
+    <title>Книжный клуб: Главная страница</title>
+</head>
+<body>
+    <h1>Книжный клуб "Литературный сад"</h1>
+    <p>Добро пожаловать в "Литературный сад"!</p>
+
+    <p>Наша миссия - создать уютное и вдохновляющее пространство для всех, кто любит книги. В нашем книжном клубе мы собираемся,
+    чтобы обсуждать прочитанные произведения, делиться впечатлениями и находить единомышленников.</p>
+
+    <ul>Что мы предлагаем:
+        <li>Еженедельные встречи для обсуждения книг разных жанров и эпох.</li>
+        <li>Рекомендации лучших книг от наших участников и экспертов.</li>
+        <li>Литературные вечера с участием авторов и критиков.</li>
+        <li>Обмен книгами для тех, кто хочет поделиться своими сокровищами и найти что-то новое.</li>
+        <li>Развёрнутые литературные обзоры на наши особенно любимые произведения.</li>
+    </ul>
+
+    <p>Присоединяйтесь к нашему клубу и давайте вместе растить и развивать наш Литературный сад, где каждая книга - это прекрасный цветок,
+    а каждая встреча - незабываемый вечер в кругу друзей.</p>
+        
+    <p>С любовью, команда "Литературного сада"</p>
+     
+    <a name = "Форма"></a>
+    <h2>Форма для отправки заявки на вступление в клуб!</h2>
+    <form action="https://ya.ru" method="get" target="_blank">
+        <p>Имя:<input type = "text" value="Елизавета" placeholder="Введите имя" name="first_name"></p>
+        <p>Фамилия:<input type = "text" value="Соколова" placeholder="Введите фамилию" name="last_name"></p>
+        <p>Возраст:<input type = "number" value="20" placeholder="Введите возраст" name="age"></p>
+        <p>Номер телефона:<input type = 'number' value = "12345678912" placeholder="Введите номер телефона" name="phone_number"></p>
+        <p>E-mail:<input type = "text" value="sncijsd.gmail.com" placeholder="Введите e-mail" name="e-mail"></p>
+        <p>Дата подачи заявки:<input type ="date" placeholder="Введите дату" name="date"></p>
+        <p>Место проживания:
+            <input type="Radio" name="place" value="Moscow">Москва
+            <input type="Radio" name="place" value="Odintsovo" checked >Одинцово
+        </p>
+        <p>Готов(а) помогать клубу: <input type="Checkbox" name="help" checked value="money">Материально</p>
+            <p><input type="Checkbox"  name="help" value="organization" checked>Огранизацией мероприятий и собраний</p>
+            <p><input type="Checkbox" name="help" value="cooperation">Нахождением кампаний для сотрудничества</p>
+            <p><input type="Checkbox" name="help" value="delivery">Доставкой собранных книг в библиотеки</p>
+            <p><input type="Checkbox" name="help" value="advertisement" checked>Популяризацией нашего клуба в соцсетях</p>
+            <p><input type="Checkbox" name="help" value="finding_new _members">Нахождением новых членов клуба</p>
+        
+        <p>Предложения для усовершенствования клуба:<input type = "text" value="Нет" name="offers" hidden></p>
+
+        <p>
+            <input type="Reset"  name="Reset"  value="Обновить">
+            <input type="Submit" name="submit"  value="Отправить">
+        </p>
+    </form>
+    <h2>Авторизация на сайте</h2>
+    <form action="https://ya.ru" method="get">
+        <p><label>Логин: <input type = "text" placeholder="Введите логин" name="user"></label></p>
+        <p><label>Пароль: <input type = "password" placeholder="Введите пароль" name="password"></label></p>
+        <p><input type="Submit" name="enter" value="Войти"></p>
+    </form>
+
+    <h2>Навигация</h2>
+    <a href="https://gbsad.ru/"><img class='picture_right'
+        src="https://i.pinimg.com/564x/9b/7c/63/9b7c6369031e49b5fd3970b4aa311b6f.jpg"
+        title="Ботанический сад РАН"
+        alt="Ботанический сад РАН"
+        width="250"
+        ></a>
+    <nav><ul>
+        <li><a href="nav_osn.html" class="active">Главная страница.</a></li>
+        <li><a href="#Форма">Форма для отправки заявки на вступление в клуб!</a></li>
+        <li><div style="color: #5345BA;">Литературные обзоры</div><ol>
+            <li><a href="str1king.html">Стивен Кинг "Сияние"</a></li>
+            <li><a href="str2rem.html">Эрих Мария Ремарк "Триумфальная арка"</a></li>
+            <li><a href="str3london.html">Джек Лондон "Мартин Иден"</a></li>
+        </ol></li>
+        <li><a href="https://www.hse.ru/" target="_blank"Ы>Наш спонсор</a></li></ul></nav>
+
+    </ul></nav>
+</body>
+</html>
