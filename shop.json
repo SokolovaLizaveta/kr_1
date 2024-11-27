@@ -1,0 +1,59 @@
+[
+    {
+      "id": "1",
+      "title": "Стивен Кинг 'Сияние'",
+      "vendor_code": "111",
+      "description": "…Проходят годы, десятилетия,  но потрясающая история писателя Джека Торранса, его сынишки Дэнни, наделенного необычным даром, и поединка с темными силами, обитающими в роскошном отеле 'Оверлук', по-прежнему завораживает и держит в неослабевающем напряжении читателей самого разного возраста… Культовый роман Стивена Кинга - в новом переводе!",
+      "price": 1149,
+      "img": "images_store/king.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Эрих Мария Ремарк 'Триумфальная арка'",
+      "vendor_code": "222",
+      "description": "Это — красивейший из европейских романов ХХ века. Роман о любви, войне и смерти. Это — печальнейший из европейских романов ХХ века. Роман о женщине, у которой нет ничего, кроме жалких сиюсекундных побед, — и о мужчине, привыкшем к страху, ненависти и безнадежности, как к своему второму 'я'. Это — 'Триумфальная арка'. Роман о страсти, что может и должна завершиться лишь трагедией.",
+      "price": 749,
+      "img": "images_store/rem.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Джек Лондон 'Мартин Иден'",
+      "vendor_code": "333",
+      "description": "Любовь к девушке из высшего общества побуждает героя заняться самообразованием. Он становится писателем, но все издательства отказывают ему в публикации. И как это часто бывает в жизни, пройдя сквозь лишения и унижения, получив отказ от любимой девушки, он наконец становится знаменитым. Но ни слава, ни деньги, ни успех, ни даже возвращение его возлюбленной не могут уберечь Мартина от разочарования в этой насквозь фальшивой жизни.",
+      "price": 349,
+      "img": "images_store/london.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Joanne Rowling 'Harry Potter and the Philosopher's Stone'",
+      "vendor_code": "444e",
+      "description": " On Harry`s 11th birthday, a great beetle-eyed giant of a man called Rubeus Hagrid bursts in with some astonishing news: Harry Potter is a wizard, and he has a place at Hogwarts School of Witchcraft and Wizardry. An incredible adventure is about to begin! These new editions of the classic and internationally bestselling, multi-award-winning series feature instantly pick-up-able new jackets by Jonny Duddle, with huge child appeal, to bring Harry Potter to the next generation of readers. It`s time to PASS THE MAGIC ON …",
+      "price": 685,
+      "img": "images_store/rowling.jpg"
+    }
+    ,
+    {
+      "id": "5",
+      "title": "Fielding H. 'Bridget Jones's Diary'",
+      "vendor_code": "4445e",
+      "description": "Bridget Jones is everyone's favourite spinster. In Bridget Jones's Diary she documents her struggles through the social minefield of her 30s and tries to weigh up the eternal question: Daniel Cleaver of Mark Darcy?",
+      "price": 670,
+      "img": "images_store/diary.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Уилки Коллинз 'Отель с привидениями'",
+      "vendor_code": "4446e",
+      "description": "Графиня Нарона выходит замуж за лорда Монтрабрри, жениха Агнес Локвуд, и увозит его в путешествие, которое заканчивается в старинном палаццо Венеции. Странные вещи происходят в этом особняке — исчезновение, смерть... Проходит немного времени, и захудалое палаццо превращается в фешенебельный отель. Но нет покоя в этом месте, что-то сводит с ума постояльцев отеля.",
+      "price": 399,
+      "img": "images_store/house.jpg"
+    },
+    {
+      "id": "7",
+      "title": "М.Булгаков 'Мастер и Маргарита'",
+      "vendor_code": "4447e",
+      "description": "«Мастер и Маргарита» - вершина сатиры Михаила Булгакова, обнажающая вечные темы любви, смерти и бессмертия. Произведение завораживает своей загадочностью, в нем добро переплетено со злом, комедийное с трагическим.",
+      "price": 1543,
+      "img": "images_store/margarita.jpg"
+    }
+  ]
